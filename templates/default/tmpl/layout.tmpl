@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: <?js= title ?></title>
+    <title>DrupalGap API: <?js= title ?></title>
     
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -19,6 +19,13 @@
     
     <h1 class="page-title"><?js= title ?></h1>
     
+    <p>
+      <img src="http://www.drupalgap.org/sites/default/files/logo-64x64.jpg" align="left" style="margin: 0em 1em 1em 0em;" />
+      Welcome to the DrupalGap API (Application Programming Interface)!
+      <li><a href="http://www.drupalgap.org/get-started">Getting Started</a></li>
+      <li><a href="http://www.drupalgap.org/support">Support</a></li>
+    </p>
+    
     <?js= content ?>
 </div>
 
@@ -34,5 +41,18 @@
 
 <script> prettyPrint(); </script>
 <script src="scripts/linenumber.js"> </script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36188740-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>
